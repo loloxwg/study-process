@@ -29,4 +29,33 @@ func main() {
 	heroes["hero4"] = "zxwan"
 	fmt.Println("heroes", heroes)
 
+	//案例
+	/*
+		课堂练习：演示一个key-value 的value是map的案例
+		比如：我们要存放3个学生信息, 每个学生有 name和sex 信息
+		思路:   map[string]map[string]string
+
+	*/
+
+	studentMap := make(map[string]map[string]string)
+
+	studentMap["stu01"] = make(map[string]string, 3)
+	studentMap["stu01"]["name"] = "tom"
+	studentMap["stu01"]["sex"] = "male"
+	studentMap["stu01"]["address"] = "beijing"
+
+	studentMap["stu02"] = make(map[string]string, 3)
+	studentMap["stu02"]["name"] = "marry"
+	studentMap["stu02"]["sex"] = "male"
+	studentMap["stu02"]["address"] = "shanghai"
+
+	studentMap["stu03"] = make(map[string]string, 3)
+	studentMap["stu03"]["name"] = "zom"
+	studentMap["stu03"]["sex"] = "male"
+	studentMap["stu03"]["address"] = "shenzhen"
+
+	fmt.Println(studentMap)
+	fmt.Println(studentMap["stu03"])
+	fmt.Println(studentMap["stu01"]["name"])
+
 }
