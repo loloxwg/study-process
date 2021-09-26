@@ -1,8 +1,11 @@
 package main
 
 import (
+	"fmt"
+	"io"
 	"log"
 	"net"
+	"time"
 )
 
 func main() {
@@ -18,5 +21,17 @@ func main() {
 			continue
 		}
 		go handleConn(conn) // handle one connection at a time
+	}
+}
+
+func handleConn(c net.Conn) {
+	defer c.Close()
+	for {
+		_, err := io.WriteString(c, time.Now().Format("15:04:05\n"))
+		if err != nil {
+			return // e.g., client disconnected
+		}
+		time.Sleep(1 * time.Second)
+		fmt.Println("我发了")
 	}
 }
