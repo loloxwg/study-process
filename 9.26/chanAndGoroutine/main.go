@@ -8,7 +8,7 @@ func main() {
 
 	go writeData(intChan)
 
-	go readData(intChan, exitChan)
+//	go readData(intChan, exitChan)
 
 	for {
 		_, ok := <-exitChan
