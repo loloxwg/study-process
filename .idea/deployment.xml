@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="centos" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="alias" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="alias">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/go/src/DailyStudy" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="centos">
         <serverdata>
           <mappings>
-            <mapping deploy="/dev/go/DailyStudy" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
