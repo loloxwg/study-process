@@ -12,7 +12,7 @@ func main() {
 
 func ExampleNewClient() {
 	client := redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379",
+		Addr:     "47.110.161.238:6379",
 		Password: "", // no password set
 		DB:       0,  // use default DB
 	})
@@ -24,7 +24,7 @@ func ExampleNewClient() {
 
 func ExampleClient() {
 	client := redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379",
+		Addr:     "47.110.161.238:6379",
 		Password: "", // no password set
 		DB:       0,  // use default DB
 	})
