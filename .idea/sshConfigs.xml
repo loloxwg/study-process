@@ -3,6 +3,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.56.103" id="84f6e285-0e03-434b-b1b8-368ab8ed657e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig host="47.110.161.238" id="f9380eec-7066-4dd5-a082-9aacf6a34578" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="root" />
     </configs>
   </component>
 </project>
