@@ -9,8 +9,8 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="f6878a33-aef2-4ba5-bffa-01fc0597f8f1" name="47.110.161.238">
-        <fileTransfer accessType="SFTP" host="47.110.161.238" port="22" sshConfigId="f9380eec-7066-4dd5-a082-9aacf6a34578" sshConfig="root@47.110.161.238:22 key" keyPair="true">
+      <webServer id="f07049c4-95c6-4867-9920-6b7add2be650" name="alias">
+        <fileTransfer accessType="SFTP" host="47.110.161.238" port="22" sshConfigId="f429bbfc-f16b-47e8-a35a-c85d9ff80e3d" sshConfig="root@47.110.161.238:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
