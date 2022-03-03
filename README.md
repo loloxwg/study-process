@@ -1,7 +1,3 @@
-# -DailyStudy
-:worried:吾日三省吾身
-
-:woman_astronaut:记录自己每日所学
 
 :tomato:**todo**
 
